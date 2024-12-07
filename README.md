@@ -25,18 +25,18 @@ The dataset includes information about home sales, such as the number of bedroom
 	4.	Create a temporary table called home_sales for SQL querying.
 	5.	Perform the following tasks using SparkSQL:
 ### Analysis Tasks:
-	•	Calculate the average price for a four-bedroom house sold for each year (rounded to two decimal places).
-	•	Find the average price of homes built in each year with three bedrooms and three bathrooms (rounded to two decimal places).
-	•	Calculate the average price of homes built in each year with:
-	•	Three bedrooms.
-	•	Three bathrooms.
-	•	Two floors.
-	•	At least 2,000 square feet.
-	•	(Round off to two decimal places.)
-	•	Determine the average price of a home per “view” rating for homes with an average price greater than or equal to $350,000. Log the query runtime (rounded to two decimal places).
+	 • Calculate the average price for a four-bedroom house sold for each year (rounded to two decimal places).
+	 • Find the average price of homes built in each year with three bedrooms and three bathrooms (rounded to two decimal places).
+	 • Calculate the average price of homes built in each year with:
+	 • Three bedrooms.
+	 • Three bathrooms.
+	 • Two floors.
+	 • At least 2,000 square feet.
+	 • (Round off to two decimal places.)
+	 • Determine the average price of a home per “view” rating for homes with an average price greater than or equal to $350,000. Log the query runtime (rounded to two decimal places).
 	6.	Cache the home_sales temporary table and:
-	•	Verify if the table is cached.
-	•	Re-run the last query using the cached data and compare the runtime to the uncached runtime.
+	 • Verify if the table is cached.
+	 • Re-run the last query using the cached data and compare the runtime to the uncached runtime.
 	7.	Partition the formatted Parquet home sales data by the date_built field.
 	8.	Create a temporary table for the partitioned Parquet data and re-run the last query. Compare the runtime to the uncached runtime.
 	9.	Uncache the home_sales table and verify that it has been uncached.
